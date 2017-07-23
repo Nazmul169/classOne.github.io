@@ -1,0 +1,8 @@
+
+/*For responsive*/
+@media only screen and (max-width: 992px) {
+
+    .marginTop {
+      margin-top: 40px;
+    }
+}

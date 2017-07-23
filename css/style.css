@@ -1,0 +1,85 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans' , sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+  padding: 80px 0;
+}
+
+
+.single-service-box {
+    display: block;
+    padding: 30px;
+    border: 2px solid #e8e8e8;
+    text-align: center;
+    position: relative;
+    border-radius: 3px;
+    color: #333;
+    padding-top: 58px;
+}
+
+.single-service-box:hover {
+  color: #333;
+  border: 2px solid rgba(0,0,0,.2);
+}
+
+
+
+.service-icon {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+    background: #50BF70;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 0;
+    margin-top: -35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.single-service-box:hover .service-icon {
+  border: 1px solid rgba(0,0,0,.2);
+
+}
+
+.one {
+  background: #54BEAF;
+}
+.two {
+  background: #7AC14E;
+}
+
+.three {
+  background: #9BBF26;
+}
+
+p {
+    padding: 0;
+}
+
+.single-service-box h3 {
+    font-size: 20px;
+}
